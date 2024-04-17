@@ -1,0 +1,28 @@
+{
+  "name": "astro-p-limit-error",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sst bind astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "sst:deploy": "sst deploy",
+    "sst:dev": "sst dev"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^2.3.1",
+    "@astrojs/rss": "^4.0.5",
+    "@astrojs/sitemap": "^3.1.3",
+    "astro": "^4.6.2",
+    "@astrojs/check": "^0.5.10",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "sst": "^2.41.4",
+    "aws-cdk-lib": "2.132.1",
+    "constructs": "10.3.0",
+    "astro-sst": "^2.41.4"
+  }
+}
